@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav a.active {
+  color: #EA580C;
+}
+
+#mobile-menu {
+  transition: all 0.3s ease-in-out;
+}
