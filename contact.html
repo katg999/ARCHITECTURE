@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Arc GRAB Solutions Limited</title>
+    <meta
+      name="description"
+      content="Contact Arc GRAB Solutions for architectural and construction services in Uganda. Reach out via WhatsApp for quick responses."
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        overflow-x: hidden;
+      }
+      .whatsapp-btn {
+        transition: all 0.3s ease;
+      }
+      .whatsapp-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+      <nav
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+      >
+        <a href="index.html" class="flex items-center space-x-3">
+          <img
+            src="assets/images/logo-1.png"
+            alt="Arc GRAB Solutions Logo"
+            class="h-[140px] w-auto"
+          />
+          <span
+            class="text-xl md:text-2xl font-bold text-gray-900 tracking-tight"
+            >ArcGRAB Solutions</span
+          >
+        </a>
+
+        <div class="hidden lg:flex items-center space-x-8">
+          <a
+            href="index.html"
+            class="text-gray-600 hover:text-orange-600 transition-colors"
+            >Home</a
+          >
+          <a
+            href="services.html"
+            class="text-gray-600 hover:text-orange-600 transition-colors"
+            >Services</a
+          >
+          <a
+            href="about.html"
+            class="text-gray-600 hover:text-orange-600 transition-colors"
+            >About Us</a
+          >
+          <a href="contact.html" class="text-orange-600 font-semibold"
+            >Contact</a
+          >
+        </div>
+
+        <div class="hidden lg:flex">
+          <a
+            href="contact.html"
+            class="bg-orange-600 text-white font-semibold px-5 py-3 rounded-lg hover:bg-orange-700 transition-all duration-300 shadow-sm"
+            >Get a Free Quote</a
+          >
+        </div>
+
+        <button
+          id="menu-btn"
+          class="lg:hidden text-gray-700 focus:outline-none"
+        >
+          <svg
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+      </nav>
+
+      <div id="mobile-menu" class="hidden lg:hidden px-6 pb-4">
+        <a
+          href="index.html"
+          class="block py-2 text-gray-600 hover:text-orange-600"
+          >Home</a
+        >
+        <a
+          href="services.html"
+          class="block py-2 text-gray-600 hover:text-orange-600"
+          >Services</a
+        >
+        <a
+          href="about.html"
+          class="block py-2 text-gray-600 hover:text-orange-600"
+          >About Us</a
+        >
+        <a href="contact.html" class="block py-2 text-orange-600 font-semibold"
+          >Contact</a
+        >
+        <a
+          href="contact.html"
+          class="block mt-3 text-center bg-orange-600 text-white font-semibold px-5 py-3 rounded-lg hover:bg-orange-700 transition-all"
+          >Get a Free Quote</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="bg-gray-800 text-white py-20">
+        <div class="container mx-auto text-center px-6" data-aos="fade-in">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            Contact Arc GRAB Solutions
+          </h1>
+          <p class="mt-4 text-lg text-gray-300 max-w-3xl mx-auto">
+            Reach out to us via WhatsApp for quick responses and personalized
+            service.
+          </p>
+        </div>
+      </section>
+
+      <section class="py-20 md:py-28">
+        <div class="container mx-auto px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+            <div class="space-y-8" data-aos="fade-right">
+              <div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">
+                  Contact Information
+                </h2>
+                <p class="text-lg text-gray-600">
+                  Have a question or need a quote? Message us on WhatsApp for
+                  the fastest response.
+                </p>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-xl font-semibold">WhatsApp</h3>
+                  <a
+                    href="https://wa.me/256755036372"
+                    target="_blank"
+                    class="text-lg text-orange-600 hover:underline"
+                    >+256 755 036372</a
+                  >
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-xl font-semibold">Email</h3>
+                  <a
+                    href="mailto:arcgrab@yahoo.com"
+                    class="text-lg text-orange-600 hover:underline"
+                    >arcgrab@yahoo.com</a
+                  >
+                </div>
+              </div>
+
+              <div class="flex items-center space-x-4">
+                <div
+                  class="flex-shrink-0 w-12 h-12 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="text-xl font-semibold">Location</h3>
+                  <p class="text-lg text-gray-600">Kampala, Uganda</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <h2 class="text-3xl font-bold text-gray-900 mb-6">
+                Get in Touch
+              </h2>
+              <p class="text-lg text-gray-600 mb-6">
+                For the fastest response, please message us directly on
+                WhatsApp. Click the button below to start a conversation with
+                our team.
+              </p>
+
+              <div class="text-center">
+                <a
+                  href="https://wa.me/256755036372"
+                  target="_blank"
+                  class="whatsapp-btn inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-md text-white bg-green-500 hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+                >
+                  <img
+                    src="assets/images/whatsapp-icon.png"
+                    alt="WhatsApp"
+                    class="w-6 h-6 mr-2"
+                  />
+                  Chat on WhatsApp
+                </a>
+              </div>
+
+              <div class="mt-8 border-t border-gray-200 pt-8">
+                <h3 class="text-xl font-semibold mb-4">
+                  What to include in your message:
+                </h3>
+                <ul class="space-y-2 text-gray-600">
+                  <li class="flex items-start">
+                    <svg
+                      class="h-5 w-5 text-green-500 mr-2 mt-0.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span>Your name and contact information</span>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="h-5 w-5 text-green-500 mr-2 mt-0.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span>Type of service you need</span>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="h-5 w-5 text-green-500 mr-2 mt-0.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span>Project location and timeline</span>
+                  </li>
+                  <li class="flex items-start">
+                    <svg
+                      class="h-5 w-5 text-green-500 mr-2 mt-0.5"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    <span>Any specific requirements</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+      <div class="container mx-auto px-6 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+          <div>
+            <a href="index.html" class="flex items-center space-x-3 mb-4">
+              <img
+                src="assets/images/logo-1.png"
+                alt="Arc GRAB Solutions Logo"
+                class="h-[48px] w-auto"
+              />
+              <span class="text-xl font-bold">Arc GRAB Solutions Limited</span>
+            </a>
+            <p class="text-gray-400">
+              Let our experienced architects and engineers bring your vision to
+              life. Contact us today for a personalized consultation.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a href="index.html" class="hover:text-orange-500">Home</a>
+              </li>
+              <li>
+                <a href="services.html" class="hover:text-orange-500"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="about.html" class="hover:text-orange-500">About Us</a>
+              </li>
+              <li>
+                <a href="contact.html" class="hover:text-orange-500">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-4">Our Services</h4>
+            <ul class="space-y-2 text-gray-300">
+              <li>
+                <a
+                  href="services.html#building-plan"
+                  class="hover:text-orange-500"
+                  >Building Plans Design</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html#construction"
+                  class="hover:text-orange-500"
+                  >Construction Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html#engineering"
+                  class="hover:text-orange-500"
+                  >Engineering Work</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html#planning-advice"
+                  class="hover:text-orange-500"
+                  >Planning Advisory</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-bold text-lg mb-4">Contact Us</h4>
+            <ul class="space-y-2 text-gray-300">
+              <li class="flex items-center space-x-2">
+                <span>📞</span>
+                <a href="tel:+256755036372" class="hover:text-orange-500"
+                  >+256 755 036372</a
+                >
+              </li>
+              <li class="flex items-center space-x-2">
+                <span>✉️</span>
+                <a href="mailto:arcgrab@yahoo.com" class="hover:text-orange-500"
+                  >arcgrab@yahoo.com</a
+                >
+              </li>
+              <li class="flex items-center space-x-2">
+                <span>📍</span> <span>Kampala, Uganda</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="mt-12 border-t border-gray-700 pt-8 text-center text-gray-500"
+        >
+          <p>&copy; Arc GRAB Solutions Limited</p>
+
+          <p class="text-xs mt-2">
+            Powered by
+            <a href="#" class="hover:text-orange-500">Feyn Systems</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/256755036372"
+      target="_blank"
+      class="fixed bottom-5 right-5 bg-green-500 p-3 rounded-full shadow-lg hover:bg-green-600 transition-transform hover:scale-110 z-40"
+    >
+      <img
+        src="assets/images/whatsapp-icon.png"
+        alt="Chat on WhatsApp"
+        class="w-8 h-8"
+      />
+    </a>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: false,
+      });
+    </script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
